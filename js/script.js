@@ -20,12 +20,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function createTaskElement(text) {
         const task = document.createElement('li');
-        task.className = 'list-group-item';
+        task.className = 'list-group-item d-flex justify-content-between align-items-center';
         task.textContent = text;
+
         const deleteBtn = document.createElement('button');
-        deleteBtn.className = 'delete-btn';
+        deleteBtn.className = 'delete-btn btn btn-sm btn-danger ms-auto';
         deleteBtn.innerHTML = '&times;';
-        deleteBtn.addEventListener('click', () => {
+        deleteBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
             task.remove();
             saveTasks();
         });
@@ -70,3 +72,4 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
