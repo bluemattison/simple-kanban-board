@@ -1,16 +1,19 @@
 * {
     box-sizing: border-box;
-    color: black;
+    color: rgb(7, 7, 7);
+    font-family: fantasy;
     padding: 5;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .header {
-    padding: 3;
-    margin: 3;
+    position: flex;
+    justify-content: space;
+    padding: 0;
+    margin: 0;
     width: 100%;
-    height: 4rem;
-    background-color: rgb(14, 21, 145);
+    height: 7rem;
+    background-color: rgb(1, 127, 132);
     color: white;
     list-style: none;
     display: flex;
@@ -19,15 +22,14 @@
 .nav li, .nav ul a:hover {
     height: 100%;
     list-style: none;
-    color: white;
+    color: rgb(246, 241, 241);
     display: flex;
 }
 
 .nav li {
     margin: 0 auto;
     font-size: 1.5rem;
-    color: rgb(240, 100, 6);
-    color: rgb(14, 21, 145);
+    color: rgb(249, 249, 251);
     margin-inline: 1rem;
     line-height: 4rem;
     outline: none;
@@ -38,7 +40,7 @@
 }
 
 a {
-    color: rgb(238, 155, 11);
+    color: rgb(248, 246, 243);
     outline: none;
     border: none;
     text-decoration: none;
@@ -47,6 +49,10 @@ a {
 body {
     margin: 0 auto;
     padding: 0;
+    background-image: URL(file:///Users/brandirasmussen/Desktop/Project%201%20Graphics/Just%20Green%20Desktop.png);
+  background-repeat: no-repeat;
+  background-color: #cccccc;
+
 }
 
 main {
@@ -56,17 +62,24 @@ main {
 
 footer {
     position: fixed;
+
+    padding: 0;
+    margin: 0;
     bottom: 0;
     padding: 1rem;
-    background-color: rgb(230, 77, 6);
-    color: rgb(5, 23, 184);
+    background-image: URL(file:///Users/brandirasmussen/Desktop/Project%201%20Graphics/Taskbar.png);
+    background-repeat: no-repeat;
+    color:#FFFFFF;
     width: 100%;
+    height: 6rem;
 }
 
 .list-group {
-    min-height: 200px;
-    background-color: #cd5f0ae7;
-    color: rgb(5, 23, 184);
+    width: 100%;
+    min-height: 31.9rem;
+    background-image: URL(file:///Users/brandirasmussen/Desktop/Project%201%20Graphics/notepad%2090s.jpg);
+    background-repeat: no-repeat;
+    color: rgb(241, 241, 245);
 }
 
 .list-group-item {
@@ -80,7 +93,7 @@ footer {
 .delete-btn {
     background: none;
     border: none;
-    color: rgb(7, 113, 236);
+    color: rgb(245, 247, 249);
     font-size: 1.2rem;
     cursor: pointer;
 }
