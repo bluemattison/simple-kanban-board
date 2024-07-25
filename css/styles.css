@@ -1,57 +1,78 @@
-*{
+* {
     box-sizing: border-box;
     color: black;
     padding: 0;
     margin: 0 auto;
 }
 
-.header{
+.header {
     padding: 0;
     margin: 0;
-    width:100%;
+    width: 100%;
     height: 4rem;
     background-color: teal;
     list-style: none;
     display: flex;
 }
 
-.nav ul{
+.nav ul {
     height: 100%;
     list-style: none;
     display: flex;
 }
 
-.nav li{
+.nav li {
     margin: 0 auto;
-    font-size: 2rem;
-    color:white;
-    margin-inline: 4rem;
+    font-size: 1.5rem;
+    color: white;
+    margin-inline: 1rem;
     line-height: 4rem;
     outline: none;
 }
 
-a{
+a {
     color: white;
     outline: none;
-    border:none;
+    border: none;
     text-decoration: none;
 }
 
-body{
+body {
     margin: 0 auto;
     padding: 0;
 }
 
-main{
+main {
     margin-top: 1rem;
     text-align: center;
 }
 
-footer{
+footer {
     position: fixed;
     bottom: 0;
     padding: 1rem;
     background-color: teal;
     color: white;
     width: 100%;
+}
+
+.list-group {
+    min-height: 200px;
+    background-color: #f8f9fa;
+}
+
+.list-group-item {
+    cursor: grab;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete-btn {
+    background: none;
+    border: none;
+    color: red;
+    font-size: 1.2rem;
+    cursor: pointer;
 }
