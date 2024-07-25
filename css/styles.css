@@ -1,54 +1,45 @@
 * {
     box-sizing: border-box;
-    color: black;
-    padding: 5;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
     margin: 0 auto;
+    padding: 0;
 }
 
 .header {
-    padding: 3;
-    margin: 3;
     width: 100%;
     height: 4rem;
-    background-color: rgb(14, 21, 145);
-    color: white;
-    list-style: none;
+    background: linear-gradient(to bottom, #ffffff, #e1e1e1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .nav ul {
-    height: 100%;
     list-style: none;
-    color: white;
     display: flex;
 }
 
 .nav li {
     margin: 0 1rem;
     font-size: 1.5rem;
-    color: rgb(240, 100, 6);
-    color: rgb(14, 21, 145);
-    margin-inline: 1rem;
-    line-height: 4rem;
-    outline: none;
-}
-
-.nav li a:hover {
-    color: #FFFFFF;  /* hover color*/
+    color: #007aff;
 }
 
 a {
-    color: rgb(238, 155, 11);
-    outline: none;
-    border: none;
+    color: #007aff;
     text-decoration: none;
 }
 
-body {
-    margin: 0 auto;
-    padding: 0;
+a:hover {
+    text-decoration: underline;
 }
 
 .container {
@@ -59,19 +50,19 @@ body {
     margin-bottom: 1rem;
 }
 
-footer {
-    position: fixed;
-    bottom: 0;
-    padding: 1rem;
-    background-color: rgb(230, 77, 6);
-    color: rgb(5, 23, 184);
-    width: 100%;
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
 }
 
 .list-group {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 1rem;
     min-height: 200px;
-    background-color: #cd5f0ae7;
-    color: rgb(5, 23, 184);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .list-group-item {
@@ -89,7 +80,7 @@ footer {
 .delete-btn {
     background: none;
     border: none;
-    color: rgb(7, 113, 236);
+    color: #ff3b30;
     font-size: 1.2rem;
     cursor: pointer;
     margin-left: auto;
