@@ -16,7 +16,7 @@
     display: flex;
 }
 
-.nav ul {
+.nav li, .nav ul a:hover {
     height: 100%;
     list-style: none;
     color: white;
@@ -31,6 +31,10 @@
     margin-inline: 1rem;
     line-height: 4rem;
     outline: none;
+}
+
+.nav li a:hover {
+    color: #FFFFFF;  /* hover color*/
 }
 
 a {
