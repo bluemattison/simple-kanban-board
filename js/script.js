@@ -1,19 +1,18 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const backlogForm = document.getElementById('backlog-form');
-    const backlogInput = document.getElementById('backlog-input');
+    const newTaskForm = document.getElementById('new-task-form');
+    const newTaskInput = document.getElementById('new-task-input');
+    const newTask = document.getElementById('new-task');
     const backlog = document.getElementById('backlog');
     const inProgress = document.getElementById('in-progress');
     const done = document.getElementById('done');
 
-    loadTasks();
-
-    backlogForm.addEventListener('submit', (e) => {
+    newTaskForm.addEventListener('submit', (e) => {
         e.preventDefault();
-        const taskText = backlogInput.value.trim();
+        const taskText = newTaskInput.value.trim();
         if (taskText) {
             const task = createTaskElement(taskText);
-            backlog.appendChild(task);
-            backlogInput.value = '';
+            newTask.appendChild(task);
+            newTaskInput.value = '';
             saveTasks();
         }
     });
@@ -37,6 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function saveTasks() {
         const tasks = {
+            newTask: Array.from(newTask.children).map(task => task.firstChild.textContent),
             backlog: Array.from(backlog.children).map(task => task.firstChild.textContent),
             inProgress: Array.from(inProgress.children).map(task => task.firstChild.textContent),
             done: Array.from(done.children).map(task => task.firstChild.textContent),
@@ -47,6 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function loadTasks() {
         const tasks = JSON.parse(localStorage.getItem('tasks'));
         if (tasks) {
+            tasks.newTask.forEach(text => newTask.appendChild(createTaskElement(text)));
             tasks.backlog.forEach(text => backlog.appendChild(createTaskElement(text)));
             tasks.inProgress.forEach(text => inProgress.appendChild(createTaskElement(text)));
             tasks.done.forEach(text => done.appendChild(createTaskElement(text)));
@@ -55,6 +56,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function makeSortable() {
+        new Sortable(newTask, {
+            group: 'shared',
+            animation: 150,
+            onEnd: () => saveTasks(),
+        });
         new Sortable(backlog, {
             group: 'shared',
             animation: 150,
@@ -71,5 +77,6 @@ document.addEventListener('DOMContentLoaded', () => {
             onEnd: () => saveTasks(),
         });
     }
-});
 
+    loadTasks();
+});
