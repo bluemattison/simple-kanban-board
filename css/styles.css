@@ -163,7 +163,8 @@ button:hover, input[type="submit"]:hover {
 }
 
 body {
-    color: var(--font-color:);
+    color: var(--font-color);
+    
     /*other styles updated background image*/
     background-image: url(/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/css/THISDesktop.png)););
 }
