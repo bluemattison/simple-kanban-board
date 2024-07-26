@@ -7,7 +7,7 @@
 body {
     /*changed font, added green background,*/
     font-family: Vt323, monospace;
-    background-image: url(/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/css/JustGreenDesktop.png);
+    background-image: url(/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/css/THISDesktop.png);
 
     color: #333;
     margin: 0 auto;
@@ -15,10 +15,12 @@ body {
 }
 
 .header {
+    /*added background image, deleted box shadow*/
     width: 100%;
     height: 4rem;
     background: linear-gradient(to bottom, #ffffff, #e1e1e1);
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    background-image: url(/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/css/THISDesktop.png);
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,21 +29,23 @@ body {
 .nav ul {
     list-style: none;
     display: flex;
+    color: #027534;
 }
 
 .nav li {
-    margin: 0 1rem;
+    margin: 0 6rem;
     font-size: 1.5rem;
-    color: #007aff;
+    color: #027534;
 }
 
 a {
-    color: #007aff;
+    color: #027534;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
+    
 }
 
 .container {
@@ -49,7 +53,7 @@ a:hover {
 }
 
 .col-md-4 {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 h1, h2 {
@@ -64,7 +68,7 @@ h2 {
 }
 
 p, ul {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 ul {
@@ -77,7 +81,7 @@ ul li {
 
 .list-group {
     /*--background image updated--*/
-    background-image: url(/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/css/JustGreenDesktop.png);
+    background-image: url(/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/css/THISDesktop.png);
     border: 1px solid #e0e0e0;
     border-radius: 10px;
     padding: 1rem;
@@ -87,10 +91,10 @@ ul li {
 
 .list-group-item {
     /*--background image updated--*/
-    background-image: url(/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/css/JustGreenDesktop.png);
+    background-image: url(/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/css/THISDesktop.png);
     border: 1px solid #e0e0e0;
     border-radius: 5px;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
     padding: 0.5rem 1rem;
     cursor: grab;
     display: flex;
@@ -104,7 +108,7 @@ ul li {
 
 .delete-btn {
     /*--background image updated--*/
-    background-image: url(/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/css/JustGreenDesktop.png);
+    
     background: none;
     border: none;
     color: #ff3b30;
@@ -114,18 +118,21 @@ ul li {
 }
 
 footer {
+    /*added background image added height*/
     background: linear-gradient(to bottom, #ffffff, #e1e1e1);
+    background-image: url(/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/css/Taskbar.png);
     color: #333;
     text-align: center;
     padding: 1rem;
     box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1);
     position: fixed;
-    bottom: 0;
+    bottom: 0rem;
     width: 100%;
+    height: 5.75rem;
 }
 
 button, input[type="submit"] {
-    background-color: #007aff;
+    background-color: #027534;
     border: none;
     color: #fff;
     border-radius: 5px;
@@ -135,31 +142,30 @@ button, input[type="submit"] {
 }
 
 button:hover, input[type="submit"]:hover {
-    background-color: #005bb5;
+    background-color: #027534;
 }
 
 :root {
-    --primary-color: #302AE6;
+    --primary-color: #0c0c0c;
     --secondary-color: #536390;
     --font-color: #424242;
     --bg-color: #fff;
-    --heading-color: #292922;
+    --heading-color: #0c0c0c;
 }
 
 [data-theme="dark"] {
-    --primary-color: #9A97F3;
-    --secondary-color: #818cab;
-    --font-color: #e1e1ff;
+    /*updated the text colors*/
+    --primary-color: #012711;
+    --secondary-color: #03ca5a;
+    --font-color: #027534;
     --bg-color: #161625;
-    --heading-color: #818cab;
+    --heading-color: #027534;
 }
 
 body {
-    background-color: var(--bg-color);
-    color: var(--font-color);
-    background-color: Green;
+    color: var(--font-color:);
     /*other styles updated background image*/
-    
+    background-image: url(/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/css/THISDesktop.png)););
 }
 
 h1 {
