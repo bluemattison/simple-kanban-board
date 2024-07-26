@@ -5,7 +5,13 @@
 }
 
 body {
+<<<<<<< Updated upstream
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+=======
+    /*changed font*/
+    font-family: Vt323, monospace;
+    
+>>>>>>> Stashed changes
     background-color: #f4f4f4;
     color: #333;
     margin: 0 auto;
