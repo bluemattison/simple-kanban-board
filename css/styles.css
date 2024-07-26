@@ -55,7 +55,10 @@ a:hover {
     /*updated so that they will contain to fit*/
     margin-top: 0rem;
     object-fit: contain;
-    /*background-image: url(/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/css/notepadImage.jpg);
+    background-image: url(/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/css/file:/Users/notepad.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     
 
 }
