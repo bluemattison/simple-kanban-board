@@ -90,8 +90,8 @@ ul li {
 }
 
 .list-group-item {
-    /*--background image updated--*/
-    background-image: url(/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/css/THISDesktop.png);
+    /*--background image updated renamed notepad image--*/
+    background-image: url(/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/css/notepadImage.jpg);
     border: 1px solid #e0e0e0;
     border-radius: 5px;
     margin-bottom: 1rem;
@@ -132,6 +132,7 @@ footer {
 }
 
 button, input[type="submit"] {
+    /*updated color and background colors*/
     background-color: #027534;
     border: none;
     color: #fff;
@@ -146,19 +147,19 @@ button:hover, input[type="submit"]:hover {
 }
 
 :root {
-    --primary-color: #0c0c0c;
-    --secondary-color: #536390;
-    --font-color: #424242;
+    --primary-color: #027534;
+    --secondary-color: #027534;
+    --font-color: #01190c;
     --bg-color: #fff;
-    --heading-color: #0c0c0c;
+    --heading-color: #01190c;
 }
 
 [data-theme="dark"] {
-    /*updated the text colors*/
+    /*updated the colors*/
     --primary-color: #012711;
     --secondary-color: #03ca5a;
     --font-color: #027534;
-    --bg-color: #161625;
+    --bg-color: #fff;
     --heading-color: #027534;
 }
 
@@ -166,7 +167,7 @@ body {
     color: var(--font-color);
     
     /*other styles updated background image*/
-    background-image: url(/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/css/THISDesktop.png)););
+    background-image: url(/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/css/THISDesktop.png);
 }
 
 h1 {
@@ -214,7 +215,8 @@ a {
 }
 
 .slider:before {
-  background-color: #fff;
+  background-color: #f8fdf9;
+
   bottom: 4px;
   content: "";
   height: 26px;
@@ -225,6 +227,7 @@ a {
 }
 
 input:checked + .slider {
+    /*updated background and text color*/
   background-color: #66bb6a;
 }
 
