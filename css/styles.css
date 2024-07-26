@@ -5,14 +5,10 @@
 }
 
 body {
-<<<<<<< Updated upstream
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-=======
-    /*changed font*/
+    /*changed font, added green background,*/
     font-family: Vt323, monospace;
-    
->>>>>>> Stashed changes
-    background-color: #f4f4f4;
+    background-image: url(/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/css/JustGreenDesktop.png);
+
     color: #333;
     margin: 0 auto;
     padding: 0;
@@ -80,7 +76,8 @@ ul li {
 }
 
 .list-group {
-    background-color: #fff;
+    /*--background image updated--*/
+    background-image: url(/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/css/JustGreenDesktop.png);
     border: 1px solid #e0e0e0;
     border-radius: 10px;
     padding: 1rem;
@@ -89,7 +86,8 @@ ul li {
 }
 
 .list-group-item {
-    background-color: #fafafa;
+    /*--background image updated--*/
+    background-image: url(/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/css/JustGreenDesktop.png);
     border: 1px solid #e0e0e0;
     border-radius: 5px;
     margin-bottom: 0.5rem;
@@ -105,6 +103,8 @@ ul li {
 }
 
 .delete-btn {
+    /*--background image updated--*/
+    background-image: url(/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/css/JustGreenDesktop.png);
     background: none;
     border: none;
     color: #ff3b30;
@@ -157,23 +157,23 @@ button:hover, input[type="submit"]:hover {
 body {
     background-color: var(--bg-color);
     color: var(--font-color);
-
-    /*other styles*/
+    background-color: Green;
+    /*other styles updated background image*/
     
 }
 
 h1 {
+    /*other styles updated background image*/
     color: var(--secondary-color);
-
-    /*other styles*/
+    background-image: url(/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/css/JustGreenDesktop.png);
+    
     
 }
 
 a {
     color: var(--primary-color);
-
     /*other styles*/
-    
+    background-image: url(/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/css/JustGreenDesktop.png);
 }
 .theme-switch-wrapper {
   display: flex;
