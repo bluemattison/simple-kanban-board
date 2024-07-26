@@ -8,7 +8,7 @@ body {
     /*changed font, added green background,*/
     font-family: Vt323, monospace;
     background-image: url(/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/css/THISDesktop.png);
-
+    background-repeat: no-repeat;
     color: #333;
     margin: 0 auto;
     padding: 0;
@@ -20,6 +20,7 @@ body {
     height: 4rem;
     background: linear-gradient(to bottom, #ffffff, #e1e1e1);
     background-image: url(/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/css/THISDesktop.png);
+    background-repeat: no-repeat;
     
     display: flex;
     align-items: center;
@@ -45,11 +46,18 @@ a {
 
 a:hover {
     text-decoration: underline;
+    color:#012711;
     
 }
 
 .container {
-    margin-top: 2rem;
+    /*should be the area where the notepads are*/
+    /*updated so that they will contain to fit*/
+    margin-top: 0rem;
+    object-fit: contain;
+    /*background-image: url(/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/css/notepadImage.jpg);
+    
+
 }
 
 .col-md-4 {
@@ -81,7 +89,7 @@ ul li {
 
 .list-group {
     /*--background image updated--*/
-    background-image: url(/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/css/THISDesktop.png);
+    
     border: 1px solid #e0e0e0;
     border-radius: 10px;
     padding: 1rem;
@@ -91,7 +99,7 @@ ul li {
 
 .list-group-item {
     /*--background image updated renamed notepad image--*/
-    background-image: url(/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/css/notepadImage.jpg);
+    
     border: 1px solid #e0e0e0;
     border-radius: 5px;
     margin-bottom: 1rem;
@@ -168,13 +176,14 @@ body {
     
     /*other styles updated background image*/
     background-image: url(/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/css/THISDesktop.png);
+    background-repeat: no-repeat;
 }
 
 h1 {
     /*other styles updated background image*/
     color: var(--secondary-color);
     background-image: url(/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/css/JustGreenDesktop.png);
-    
+    background-repeat: no-repeat;
     
 }
 
@@ -215,6 +224,7 @@ a {
 }
 
 .slider:before {
+    /*updated color took out error*/
   background-color: #f8fdf9;
 
   bottom: 4px;
