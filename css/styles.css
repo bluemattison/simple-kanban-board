@@ -9,7 +9,7 @@ body {
     font-family: Vt323, monospace;
     background-image: url(/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/css/THISDesktop.png);
     background-repeat: no-repeat;
-    color: #333;
+    color: #f9f6f6;
     margin: 0 auto;
     padding: 0;
 }
@@ -54,12 +54,11 @@ a:hover {
     /*should be the area where the notepads are*/
     /*updated so that they will contain to fit*/
     margin-top: 0rem;
-    object-fit: contain;
+    display:flex;
     background-image: url(/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/css/file:/Users/notepad.jpg);
-    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    
+    object-fit: cover;
+    justify-content: space-between;
 
 }
 
@@ -120,9 +119,9 @@ ul li {
 .delete-btn {
     /*--background image updated--*/
     
-    background: none;
+    background-image: url(/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/css/notepad2.jpg);
     border: none;
-    color: #ff3b30;
+    color: #e83030;
     font-size: 1.2rem;
     cursor: pointer;
     margin-left: auto;
