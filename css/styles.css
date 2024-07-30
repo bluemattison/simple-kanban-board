@@ -5,11 +5,15 @@
 }
 
 body {
-    /*changed font, added green background,*/
+<<<<<<< Updated upstream
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+=======
+    /*changed font*/
     font-family: Vt323, monospace;
-    background-image: url(/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/css/THISDesktop.png);
-    background-repeat: no-repeat;
-    color: #f9f6f6;
+    
+>>>>>>> Stashed changes
+    background-color: #f4f4f4;
+    color: #333;
     margin: 0 auto;
     padding: 0;
 }
