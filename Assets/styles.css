@@ -1,6 +1,6 @@
 :root {
     --primary-color: #21e978;
-    --secondary-color: #052e17;
+    --secondary-color: #12e76e;
     --font-color: #01190c;
     --bg-color: #1a8c42;
     --heading-color: #01190c;
@@ -36,6 +36,7 @@ body {
         font-family: 'VT323', monospace;
     } */
     font-family: 'VT323', monospace;
+<<<<<<< HEAD
     color: #021b13;
 =======
     /*changed font, added green background,*/
@@ -44,6 +45,9 @@ body {
     background-repeat: no-repeat;
     color: #f9f6f6;
 >>>>>>> parent of b7bd847 (Merge branch 'main' of https://github.com/bluemattison/simple-kanban-board):css/styles.css
+=======
+    color: #01281c;
+>>>>>>> parent of 2f727d9 (Updated Font color)
     margin: 0 auto;
     padding: 0;
 }
@@ -128,7 +132,7 @@ ul li {
     /*--background image updated--*/
     /*inside boxes leave alone*/
     background-image: url(../Assets/notepad.jpg);
-    border: 1px solid #023f1c;
+    border: 1px solid #024c21;
     border-radius: 10px;
     padding: 1rem;
     min-height: 200px;
