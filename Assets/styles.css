@@ -4,10 +4,10 @@
     --font-color: #01190c;
     --bg-color: #1a8c42;
     --heading-color: #01190c;
-    --header: url("../Assets/THISDesktop.png");
-    --background-image: url("../../Assets/THISDesktop.png");
-    --container: url("../../Assets/THISDesktop.png");
-    --body: url("../Assets/THISDesktop.png");
+    --header: url(../Assets/THISDesktop.png);
+    --background-image: url(../Assets/THISDesktop.png);
+    --container: url(../../Assets/THISDesktop.png);
+    --body: url(../Assets/THISDesktop.png);
 }
 
 [data-theme="dark"] {
@@ -17,10 +17,10 @@
     --font-color: #1dd168;
     --bg-color: #27dd6d;
     --heading-color: #0f8b45;
-    --background-image: url("../../Assets/DarkModeBackground.jpg");
-    --header: url("../../Assets/DarkModeBackground.jpg");
-    --container: url("../../Assets/DarkModeBackground.jpg");
-    --body: url("../../Assets/DarkModeBackground.jpg");
+    --background-image: url(../Assets/DarkModeBackground.jpg);
+    --header: url(../Assets/DarkModeBackground.jpg);
+    --container: url(../Assets/DarkModeBackground.jpg);
+    --body: url(Assets/DarkModeBackground.jpg);
 }
 
 * {
@@ -127,7 +127,7 @@ ul li {
 .list-group {
     /*--background image updated--*/
     /*inside boxes leave alone*/
-    background-image: url("../Assets/notepad.jpg");
+    background-image: url(../Assets/notepad.jpg);
     border: 1px solid #023f1c;
     border-radius: 10px;
     padding: 1rem;
@@ -167,7 +167,7 @@ footer {
     /*added background image added height;
     footer is same for both modes*/
     background: linear-gradient(to bottom, #057335, #057335);
-    background-image: url("../Assets/Taskbar.png");
+    background-image: url(../Assets/Taskbar.png);
     color: #333;
     text-align: center;
     padding: 1rem;
@@ -200,7 +200,7 @@ body {
     
     /*other styles updated background image
     Light Mode Background*/
-    background-image: url("../Assets/THISDesktop.png");
+    background-image: url(../Assets/THISDesktop.png);
     /*Dark Mode Background
     background-image: url(../Assets/DarkModeBackground.jpg);)*/
     background-repeat: no-repeat;
