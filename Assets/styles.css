@@ -94,17 +94,17 @@ ul li {
     /*--background image updated--*/
     /*inside boxes*/
     background-image: url(../Assets/notepad.jpg);
-    border: 1px solid #e0e0e0;
+    border: 1px solid #024c21;
     border-radius: 10px;
     padding: 1rem;
     min-height: 200px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 3px rgba(1, 65, 17, 0.1);
 }
 
 .list-group-item {
     /*--background image updated renamed notepad image--*/
     
-    border: 1px solid #e0e0e0;
+    border: 1px solid #025234;
     border-radius: 5px;
     margin-bottom: 1rem;
     padding: 0.5rem 1rem;
@@ -131,7 +131,7 @@ ul li {
 
 footer {
     /*added background image added height*/
-    background: linear-gradient(to bottom, #ffffff, #e1e1e1);
+    background: linear-gradient(to bottom, #057335, #057335);
     background-image: url(../Assets/Taskbar.png);
     color: #333;
     text-align: center;
@@ -168,10 +168,10 @@ button:hover, input[type="submit"]:hover {
 
 [data-theme="dark"] {
     /*updated the colors*/
-    --primary-color: #012711;
+    --primary-color: #01923d;
     --secondary-color: #03ca5a;
     --font-color: #027534;
-    --bg-color: #fff;
+    --bg-color: #012a11;
     --heading-color: #027534;
 }
 
@@ -242,7 +242,7 @@ a {
 
 input:checked + .slider {
     /*updated background and text color*/
-  background-color: #66bb6a;
+  background-color: #3aaf40;
 }
 
 input:checked + .slider:before {
