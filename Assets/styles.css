@@ -56,7 +56,7 @@ a:hover {
     /*updated so that they will contain to fit*/
     margin-top: 0rem;
     display:flex;
-    background-image: url(../Assets/notepad.jpg);
+    background-image: url(../Assets/THISDesktop.png);
     background-repeat: no-repeat;
     object-fit: cover;
     justify-content: space-between;
