@@ -41,6 +41,7 @@ body {
     } */
     font-family: 'VT323', monospace;
 <<<<<<< HEAD
+<<<<<<< HEAD
     color: #021b13;
 =======
 =======
@@ -57,6 +58,9 @@ body {
 >>>>>>> parent of 2f727d9 (Updated Font color)
 =======
 >>>>>>> parent of b7bd847 (Merge branch 'main' of https://github.com/bluemattison/simple-kanban-board):css/styles.css
+=======
+    color: #333;
+>>>>>>> parent of 2319dc4 (updated font color)
     margin: 0 auto;
     padding: 0;
 }
