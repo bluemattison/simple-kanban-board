@@ -1,6 +1,6 @@
 :root {
     --primary-color: #21e978;
-    --secondary-color: #12e76e;
+    --secondary-color: #052e17;
     --font-color: #01190c;
     --bg-color: #1a8c42;
     --heading-color: #01190c;
@@ -35,7 +35,7 @@ body {
         font-family: 'VT323', monospace;
     } */
     font-family: 'VT323', monospace;
-    color: #01281c;
+    color: #021b13;
     margin: 0 auto;
     padding: 0;
 }
@@ -120,7 +120,7 @@ ul li {
     /*--background image updated--*/
     /*inside boxes leave alone*/
     background-image: url(../Assets/notepad.jpg);
-    border: 1px solid #024c21;
+    border: 1px solid #023f1c;
     border-radius: 10px;
     padding: 1rem;
     min-height: 200px;
