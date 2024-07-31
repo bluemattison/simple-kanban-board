@@ -5,22 +5,22 @@
     --bg-color: #1a8c42;
     --heading-color: #01190c;
     --header: url("../Assets/THISDesktop.png");
-    --background-image: url("../../Assets/THISDesktop.png");
-    --container: url("../../Assets/THISDesktop.png");
+    --background-image: url("../Assets/THISDesktop.png");
+    --container: url("../Assets/THISDesktop.png");
     --body: url("../Assets/THISDesktop.png");
 }
 
 [data-theme="dark"] {
     /*updated the colors*/
-    --primary-color: #16532f;
+    --primary-color: #2ed975;
     --secondary-color: #1dd168;
     --font-color: #1dd168;
-    --bg-color: #27dd6d;
-    --heading-color: #0f8b45;
-    --background-image: url("../../Assets/DarkModeBackground.jpg");
-    --header: url("../../Assets/DarkModeBackground.jpg");
-    --container: url("../../Assets/DarkModeBackground.jpg");
-    --body: url("../../Assets/DarkModeBackground.jpg");
+    --bg-color: #052712;
+    --heading-color: #052712;
+    --background-image: url("../Assets/DarkModeBackground.jpg");
+    --header: url("../Assets/DarkModeBackground.jpg");
+    --container: url("../Assets/DarkModeBackground.jpg");
+    --body: url("../Assets/DarkModeBackground.jpg");
 }
 
 * {
