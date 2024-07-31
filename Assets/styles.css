@@ -30,12 +30,20 @@
 }
 
 body {
+<<<<<<< HEAD:Assets/styles.css
     /*Change Font Here*/
     /* .VT323 {
         font-family: 'VT323', monospace;
     } */
     font-family: 'VT323', monospace;
     color: #021b13;
+=======
+    /*changed font, added green background,*/
+    font-family: Vt323, monospace;
+    background-image: url(/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/Users/brandirasmussen/Documents/GitHub/simple-kanban-board/css/THISDesktop.png);
+    background-repeat: no-repeat;
+    color: #f9f6f6;
+>>>>>>> parent of b7bd847 (Merge branch 'main' of https://github.com/bluemattison/simple-kanban-board):css/styles.css
     margin: 0 auto;
     padding: 0;
 }
