@@ -1,3 +1,31 @@
+<<<<<<< HEAD
+=======
+:root {
+    --primary-color: #21e978;
+    --secondary-color: #052e17;
+    --font-color: #01190c;
+    --bg-color: #1a8c42;
+    --heading-color: #01190c;
+    --header: url(../Assets/THISDesktop.png);
+    --background-image: url(../Assets/THISDesktop.png);
+    --container: url(../../Assets/THISDesktop.png);
+    --body: url(../Assets/THISDesktop.png);
+}
+
+[data-theme="dark"] {
+    /*updated the colors*/
+    --primary-color: #16532f;
+    --secondary-color: #1dd168;
+    --font-color: #1dd168;
+    --bg-color: #27dd6d;
+    --heading-color: #0f8b45;
+    --background-image: url(../Assets/DarkModeBackground.jpg);
+    --header: url(../Assets/DarkModeBackground.jpg);
+    --container: url(../Assets/DarkModeBackground.jpg);
+    --body: url(Assets/DarkModeBackground.jpg);
+}
+
+>>>>>>> parent of 9183acc (updated directories)
 * {
     box-sizing: border-box;
     padding: 0;
@@ -104,9 +132,15 @@ ul li {
 
 .list-group {
     /*--background image updated--*/
+<<<<<<< HEAD
     /*inside boxes*/
     background-image: url(../Assets/notepad.jpg);
     border: 1px solid #024c21;
+=======
+    /*inside boxes leave alone*/
+    background-image: url(../Assets/notepad.jpg);
+    border: 1px solid #023f1c;
+>>>>>>> parent of 9183acc (updated directories)
     border-radius: 10px;
     padding: 1rem;
     min-height: 200px;
@@ -190,8 +224,16 @@ button:hover, input[type="submit"]:hover {
 body {
     color: var(--font-color);
     
+<<<<<<< HEAD
     /*other styles updated background image*/
     background-image: url(../Assets/THISDesktop.png);
+=======
+    /*other styles updated background image
+    Light Mode Background*/
+    background-image: url(../Assets/THISDesktop.png);
+    /*Dark Mode Background
+    background-image: url(../Assets/DarkModeBackground.jpg);)*/
+>>>>>>> parent of 9183acc (updated directories)
     background-repeat: no-repeat;
 }
 
