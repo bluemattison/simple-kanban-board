@@ -92,10 +92,11 @@ ul li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    white-space: normal;
-    max-width: 100%;
+    flex-wrap: wrap; /* Allows the text and button to wrap within the container */
+    word-wrap: break-word; /* Ensures long words break and wrap onto the next line */
+    overflow-wrap: break-word; /* Same as word-wrap for modern browsers */
+    word-break: break-word; /* Ensures text breaks within the container */
+    white-space: normal; /* Allows text to wrap within the box */
 }
 
 .delete-btn {
