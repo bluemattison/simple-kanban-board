@@ -18,11 +18,11 @@ body { /*not sure where these colors are assigned*/
      not wrapping correctly trying to fix*/
     width: 100%;
     height: 4rem;
-    background: linear-gradient(to top, #02316f, #fcfdfe);
+    background: linear-gradient(to top, #02316f, #1e8bf7);
     box-shadow: 0 1px 3px rgba(4, 4, 4, 0.1);
-    display: flex;
+    flex-flow: column wrap;
     align-items: center;
-    justify-content: center;
+    
     vertical-align: middle;
 }
 
@@ -114,7 +114,7 @@ ul li {
 }
 
 footer {/*changed gradient color on footer so its a more smooth transition on eyes to dark mode*/
-    background: linear-gradient(to bottom,  #02316f, #fcfdfe);
+    background: linear-gradient(to bottom,  #02316f, #1e8bf7);
     color: #021e45;
     text-align: center;
     padding: 1rem;
