@@ -34,11 +34,11 @@ body { /*not sure where these colors are assigned*/
 .nav li {/*darkmode font color*/
     margin: 0 1rem;
     font-size: 1.5rem;
-    color: #f3f4f6;
+    color: #021741;
 }
 
-a {
-    color: #f3f4f6;
+a {/*contact us button color*/
+    color: #4995f8;
     text-decoration: none;
 }
 
